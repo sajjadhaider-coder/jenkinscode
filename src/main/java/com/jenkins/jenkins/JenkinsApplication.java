@@ -10,7 +10,7 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class JenkinsApplication {
 
-	//public static Logger logger = LoggerFactory.getLogger(JenkinsApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(JenkinsApplication.class);
 	
 	@PostConstruct
 	public void intt() {
