@@ -20,6 +20,7 @@ public class JenkinsApplication {
 		
 		logger.info("Application executed");
 		SpringApplication.run(JenkinsApplication.class, args);
+		logger.info("Application executed successfully");
 	}
 
 }
