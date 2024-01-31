@@ -21,7 +21,7 @@ public class JenkinsApplication {
 		// ADDED A NEW COMMENT FOR TESTING PURPOSE
 		logger.info("Application executed");
 		SpringApplication.run(JenkinsApplication.class, args);
-		logger.info("Application executed successfully");
+		logger.info("Application executed successfully.");
 	}
 
 }
